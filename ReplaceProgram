@@ -1,0 +1,3 @@
+for x in data.index:
+  if data.loc[x, "horsepower"] == "?":
+    data.loc[x, "horsepower"] = 120
